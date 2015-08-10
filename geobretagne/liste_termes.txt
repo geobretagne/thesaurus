@@ -1,0 +1,85 @@
+﻿3d volumique et générique : terrain|MNT texturé, terrain pour la hauteur de base.
+3d volumique et générique : bâtiments et ouvrages|Bâtiments modélisés (maquette blanche ou texturée), ouvrages complexes (ponts, bâtiments remarquables).#Les niveaux de détails (LoD) peuvent être différents.
+3d volumique et générique : sur-sol|Autres objets modélisés permettant d'améliorer l'expérience visuelle.
+3d volumique et générique : autres|
+activité économique : agriculture et élevage|Les données agricoles en général sauf bocage et zones humides (ou données du même genre) à ranger dans « patrimoine naturel : bocage ».#Production de denrées alimentaires.
+activité économique : emploi|Tout ce qui relève de l'analyse ou de la description de l'emploi, des activités salariées.
+activité économique : entreprises et commerces|Localisation ou description des commerces et entreprises (sauf exploitations agricoles).#Les sites classés sont à ranger dans les risques technologiques
+activité économique : pêche|Tout ce qui concerne les pêches (terre ou mer) à l'exclusion des zonages qui se trouvent dans « Patrimoine naturel : Zonages de protection, de gestion ou d’intervention »
+activité économique : sylviculture|Tout ce qui se rapporte à la sylviculture, y compris les zonages de gestion.
+activité économique : autres|
+climat météo : climat|Données climatiques.
+climat météo : météo|Données météorologiques.
+climat météo : autres|
+démographie et population : recensement|Toutes les données sur les recensements de populations et les séries statistiques descriptives des populations sauf le Recensement Général Agricole à ranger dans « Activité économique : Agriculture et élevage ».
+démographie et population : projections|Projections de population.
+démographie et population : statistiques|Toutes les données statistiques autres que celles liées au RGP.#Les données relatives spécifiquement à l'emploi (par filières économiques par exemple) sont à ranger dans « Activité économique : Emploi ».
+démographie et population : autres|
+énergie : production|Les données relatives à la production d’énergie sous toutes ses formes : conventionnelle ou renouvelable.
+énergie : consommation|Les données relatives à la consommation d’énergie sous toutes ses formes : conventionnelle ou renouvelable.
+énergie : autres|
+espace public : mobilier urbain|Les données décrivant le patrimoine des objets gérés ou exploités sur le domaine public.
+espace public : espaces verts|Les données décrivant le patrimoine arborés et les espaces verts urbains.
+espace public : déchets et propreté|Tout ce qui touche à l’organisation, la collecte, le traitement et la prévention des déchets.
+espace public : autres|
+hydrographie : réseaux et ouvrages|Tout ce qui permet de décrire les éléments composants un réseau hydrographique, continental ou maritime.#Les traits de côte sont considérés comme des référentiels maritimes.
+hydrographie : mesures|Toutes les données décrivant les réseaux de suivis, ainsi que les états qualitatif et quantitatif d'un réseau hydrographique.#Les données de pollutions (ex : pesticides) sont à ranger dans « risques : risque sanitaires ».
+hydrographie : zonages périmètres et programmes d’action|Regroupe tous les zonages et périmètres, réglementaires ou non, ainsi que les programmes d'actions relatifs à l'eau (continentale et maritime) et/ou à sa gestion.
+hydrographie : autres|
+limites administratives et découpage des territoires : limites administratives|Sectorisation des territoires, limites officielles de gestion administrative.#Les découpages thématiques sont à ranger dans les thématiques correspondantes (ex : SDAGE et Natura 2000).
+limites administratives et découpage des territoires : grilles et carroyages|Découpage du territoire en carreaux, mailles, quadrillage.#Les découpages thématiques sont à ranger dans les thématiques correspondantes (ex : carreaux INSEE).#Les emprises des dalles d'ortho sont à mettre dans « Référentiels : Imagerie ».#Les carroyages servant aux plans de villes sont à ranger dans « Référentiels : fonds cartographiques ».
+limites administratives et découpage des territoires : autres|
+mobilité transport : organisation et planification|Ce qui est en relation avec l'organisation, la planification des transports sur un territoire dans un esprit de multi-modalité.
+mobilité transport : déplacement collectif|Les données sur tous les réseaux de transport collectif.
+mobilité transport : modes actifs|Description de l'existant en matière de déplacement doux (piétons / vélo) hors itinéraires touristiques.#Appelés également “modes doux”.
+mobilité transport : stationnement|Les données sur le stationnement automobile.
+mobilité transport : transport aérien|Tout ce qui a trait au transport aérien.
+mobilité transport : transport ferroviaire|Tout ce qui se rapporte aux infrastructures ferrées et à leur utilisation.
+mobilité transport : transport maritime et fluvial|Les données sur le transport maritime et fluvial, y compris les infrastructures.
+mobilité transport : transport routier et voirie|Les données métier de gestion ou d'exploitation de la voirie (hors référentiel de voies généraliste à ranger dans « référentiels : voies et adresses »).
+mobilité transport : autres|
+occupation du sol sol sous-sol : mode d’occupation du sol|Les données décrivant l'occupation des sols et les surfaces anthropisées.
+occupation du sol sol sous-sol : sol et sous-sol|Les données relatives au sol et au sous-sol, y compris les données du BRGM.
+occupation du sol sol sous-sol : autres|
+patrimoine naturel : bocage|Les données sur le bocage, les haies et talus : études et gestion.
+patrimoine naturel : habitats et biotopes|Regroupe les données décrivant les habitats et les espèces, sans faire de distinction entre terrien et maritime.
+patrimoine naturel : zonages de protection de gestion ou d’intervention|Regroupe tous les zonages liés au patrimoine naturel.#Ne concerne pas uniquement les zonages réglementaires officiels.
+patrimoine naturel : autres|
+patrimoine tourisme loisirs : patrimoine architectural et culturel|Tout ce qui est relatif aux bâtis et monuments historiques, lieux ou bâtis d'intérêt patrimonial ou culturel.
+patrimoine tourisme loisirs : tourisme et loisirs|Données relatives aux équipements touristiques et de loisirs.#Si ce sont des données économiques ou financières : ranger dans « Activité économique : Entreprises, commerces »
+patrimoine tourisme loisirs : autres|
+photothèque : photographies aériennes obliques|Concerne les photos obliques prises à partir de vecteurs aériens : avion, ballon, ULM, drone.
+photothèque : photographies géolocalisées|Photographies dont la localisation de la prise de vue est décrite par des coordonnées et/ou un angle de prise de vue par rapport au nord géographique.
+photothèque : autres|
+référentiels : altitude|Données décrivant une hauteur ou une altitude.
+référentiels : cadastre|Cadastre DGFiP de référence, RPCU.
+référentiels : imagerie|Orthophotographies ou photos aériennes géoréférencées, images satellitales ou aéroportées.
+référentiels : fonds cartographiques|Les fonds de plans à usage généraliste : plans de ville, plans urbains, Scan25, OpenStreetMap, etc
+référentiels : référentiels maritimes|Les données de référence qui concerne le domaine maritime, y compris les données du SHOM disponibles dans le SIG interne.
+référentiels : topographie et très grande échelle|Données de précision topographique et données à très grande échelle
+référentiels : voies et adresses|Données de référence (non métier) sur les voies et les adresses,
+référentiels : autres|
+réseaux : transport d’énergie|Réseaux et équipements liés à l'énergie.#Les sites sont compris comme des nœuds du réseau.
+réseaux : réseaux humides|Les réseaux et les équipements  véhiculant des eaux propres ou usées.#Comprend les données d’usage : production, consommation, etc.
+réseaux : réseaux numériques|Les réseaux de communication filaires ou hertzien et leurs équipements, y compris les réseaux de communication analogique (boucle locale cuivre France Télécom).#Les éventuelles servitudes qui en résultent sont dans « urbanisme foncier habitat : planification et documents d'urbanisme ».
+réseaux : éclairage et signalisation|Les réseaux et équipements relatifs à l'éclairage public et les réseaux de signalisation.
+réseaux : autres|
+risques et sécurité : sécurité civile et forces de l'ordre|Les données relatives à l'organisation des services de police et de gendarmerie, des SDIS et des armées.
+risques et sécurité : risques naturels|Les données relatives à la description et à la gestion de la réponse aux risques naturels : inondation, submersion, érosion, etc
+risques et sécurité : risques sanitaires|Les données relatives à la description et à la gestion de la réponse aux risques sanitaires : qualité de l’eau, qualité de l’air, ondes électromagnétiques, bruit, etc.
+risques et sécurité : risques technologiques|Données relatives aux risques technologiques et industriels.
+risques et sécurité : autres|
+services et équipements publics : culture et sport|Données relatives au domaine culturel et au sport en général.
+services et équipements publics : éducation enseignement social et citoyenneté|Données relatives à l'éducation, l'enseignement, à l'action sociale et à la citoyenneté.
+services et équipements publics : administrations|La localisation des équipements relatifs aux administrations.
+services et équipements publics : santé|Les données relatives à la santé, au système de santé, à la médecine.
+services et équipements publics : points d’intérêts|Concerne les bases de données conçues dans une logique de « points d'intérêt » (POI). Ces bases sont multi-thématiques par essence et peuvent regrouper des informations gérées de façon unitaire dans d'autres jeux de données.
+services et équipements publics : autres|
+logement politique de la ville : immobilier et logement|Identification et description des immeubles ou ensembles immobilier.#Les données relatives au logement et à l'habitat humain.#Toutes les données relatives aux politiques sur l'habitat, aux marchés locaux, etc.
+logement politique de la ville : politique de la ville|Toutes les données relatives à la politique de la ville.
+logement politique de la ville : autres|
+urbanisme et foncier : zonages divers|Tous les zonages sauf les zonages strictement PLU, Foncier et Droit des Sols.
+urbanisme et foncier : foncier et droit des sols|Les données relatives au foncier et le droit des sols.#Le foncier agricole est à classer ici.
+urbanisme et foncier : planification et documents d'urbanisme|Toutes les données strictement liées aux Plans locaux d'Urbanisme et Plan d'Occupation des Sols, les Servitudes d'Utilité publique et les schémas directeurs d'aménagement des territoires.
+urbanisme et foncier : projets|Projets d’aménagement, projets urbains.
+urbanisme et foncier : autres|
