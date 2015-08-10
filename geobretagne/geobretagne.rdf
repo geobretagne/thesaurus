@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Thesaurus GéoBretagne
+  version 2.0 du 13/01/2014
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" >
+  <skos:ConceptScheme rdf:about="http://www.geobretagne.fr/thesaurus">
+    <dc:title>GéoBretagne v 2.0</dc:title>
+    <dc:description>Thesaurus de la nomenclature thématique de GéoBretagne pour GeoNetwork.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>GéoBretagne</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2014-01-13</dcterms:issued>
+    <dcterms:modified>2014-01-13</dcterms:modified>
+  </skos:ConceptScheme>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/﻿3d_volumique_et_generique/terrain/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/batiments_et_ouvrages/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/sur-sol/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/agriculture_et_elevage/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/emploi/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/entreprises_et_commerces/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/peche/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/sylviculture/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/activite_economique/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/climat_meteo/climat/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/climat_meteo/meteo/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/climat_meteo/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/demographie_et_population/recensement/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/demographie_et_population/projections/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/demographie_et_population/statistiques/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/demographie_et_population/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/energie/production/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/energie/consommation/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/energie/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/espace_public/mobilier_urbain/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/espace_public/dechets_et_proprete/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/espace_public/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/hydrographie/reseaux_et_ouvrages/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/hydrographie/mesures/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/hydrographie/zonages_perimetres_et_programmes_d_action/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/hydrographie/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/limites_administratives/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/grilles_et_carroyages/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/organisation_et_planification/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/deplacement_collectif/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/modes_actifs/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/stationnement/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_aerien/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_ferroviaire/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_maritime_et_fluvial/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_routier_et_voirie/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/mobilite_transport/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/mode_d_occupation_du_sol/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/sol_et_sous-sol/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/bocage/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/habitats_et_biotopes/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/zonages_de_protection_de_gestion_ou_d_intervention/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/patrimoine_architectural_et_culturel/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/tourisme_et_loisirs/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/phototheque/photographies_aeriennes_obliques/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/phototheque/photographies_geolocalisees/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/phototheque/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/altitude/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/cadastre/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/imagerie/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/fonds_cartographiques/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/referentiels_maritimes/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/topographie_et_tres_grande_echelle/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/voies_et_adresses/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/referentiels/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/reseaux/transport_d_energie/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/reseaux/reseaux_humides/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/reseaux/reseaux_numeriques/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/reseaux/eclairage_et_signalisation/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/reseaux/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/risques_et_securite/securite_civile_et_forces_de_l_ordre/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_naturels/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_sanitaires/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_technologiques/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/risques_et_securite/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/culture_et_sport/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/education_enseignement_social_et_citoyennete/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/administrations/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/sante/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/points_d_interets/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/immobilier_et_logement/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/politique_de_la_ville/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/autres/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/zonages_divers/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/foncier_et_droit_des_sols/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/planification_et_documents_d_urbanisme/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/projets/"/>
+    <skos:hasTopConcept rdf:resource="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/autres/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/﻿3d_volumique_et_generique/terrain/">
+    <skos:prefLabel xml:lang="fr">﻿3d volumique et générique : terrain</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">MNT texturé, terrain pour la hauteur de base.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/batiments_et_ouvrages/">
+    <skos:prefLabel xml:lang="fr">3d volumique et générique : bâtiments et ouvrages</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Bâtiments modélisés (maquette blanche ou texturée), ouvrages complexes (ponts, bâtiments remarquables).
+Les niveaux de détails (LoD) peuvent être différents.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/sur-sol/">
+    <skos:prefLabel xml:lang="fr">3d volumique et générique : sur-sol</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Autres objets modélisés permettant d'améliorer l'expérience visuelle.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/3d_volumique_et_generique/autres/">
+    <skos:prefLabel xml:lang="fr">3d volumique et générique : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/agriculture_et_elevage/">
+    <skos:prefLabel xml:lang="fr">activité économique : agriculture et élevage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données agricoles en général sauf bocage et zones humides (ou données du même genre) à ranger dans « patrimoine naturel : bocage ».
+Production de denrées alimentaires.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/emploi/">
+    <skos:prefLabel xml:lang="fr">activité économique : emploi</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui relève de l'analyse ou de la description de l'emploi, des activités salariées.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/entreprises_et_commerces/">
+    <skos:prefLabel xml:lang="fr">activité économique : entreprises et commerces</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Localisation ou description des commerces et entreprises (sauf exploitations agricoles).
+Les sites classés sont à ranger dans les risques technologiques</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/peche/">
+    <skos:prefLabel xml:lang="fr">activité économique : pêche</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui concerne les pêches (terre ou mer) à l'exclusion des zonages qui se trouvent dans « Patrimoine naturel : Zonages de protection, de gestion ou d’intervention »</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/sylviculture/">
+    <skos:prefLabel xml:lang="fr">activité économique : sylviculture</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui se rapporte à la sylviculture, y compris les zonages de gestion.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/activite_economique/autres/">
+    <skos:prefLabel xml:lang="fr">activité économique : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/climat_meteo/climat/">
+    <skos:prefLabel xml:lang="fr">climat météo : climat</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données climatiques.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/climat_meteo/meteo/">
+    <skos:prefLabel xml:lang="fr">climat météo : météo</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données météorologiques.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/climat_meteo/autres/">
+    <skos:prefLabel xml:lang="fr">climat météo : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/demographie_et_population/recensement/">
+    <skos:prefLabel xml:lang="fr">démographie et population : recensement</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Toutes les données sur les recensements de populations et les séries statistiques descriptives des populations sauf le Recensement Général Agricole à ranger dans « Activité économique : Agriculture et élevage ».</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/demographie_et_population/projections/">
+    <skos:prefLabel xml:lang="fr">démographie et population : projections</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Projections de population.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/demographie_et_population/statistiques/">
+    <skos:prefLabel xml:lang="fr">démographie et population : statistiques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Toutes les données statistiques autres que celles liées au RGP.
+Les données relatives spécifiquement à l'emploi (par filières économiques par exemple) sont à ranger dans « Activité économique : Emploi ».</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/demographie_et_population/autres/">
+    <skos:prefLabel xml:lang="fr">démographie et population : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/energie/production/">
+    <skos:prefLabel xml:lang="fr">énergie : production</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à la production d’énergie sous toutes ses formes : conventionnelle ou renouvelable.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/energie/consommation/">
+    <skos:prefLabel xml:lang="fr">énergie : consommation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à la consommation d’énergie sous toutes ses formes : conventionnelle ou renouvelable.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/energie/autres/">
+    <skos:prefLabel xml:lang="fr">énergie : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/espace_public/mobilier_urbain/">
+    <skos:prefLabel xml:lang="fr">espace public : mobilier urbain</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données décrivant le patrimoine des objets gérés ou exploités sur le domaine public.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/">
+    <skos:prefLabel xml:lang="fr">espace public : espaces verts</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données décrivant le patrimoine arborés et les espaces verts urbains.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/espace_public/dechets_et_proprete/">
+    <skos:prefLabel xml:lang="fr">espace public : déchets et propreté</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui touche à l’organisation, la collecte, le traitement et la prévention des déchets.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/espace_public/autres/">
+    <skos:prefLabel xml:lang="fr">espace public : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/hydrographie/reseaux_et_ouvrages/">
+    <skos:prefLabel xml:lang="fr">hydrographie : réseaux et ouvrages</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui permet de décrire les éléments composants un réseau hydrographique, continental ou maritime.
+Les traits de côte sont considérés comme des référentiels maritimes.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/hydrographie/mesures/">
+    <skos:prefLabel xml:lang="fr">hydrographie : mesures</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Toutes les données décrivant les réseaux de suivis, ainsi que les états qualitatif et quantitatif d'un réseau hydrographique.
+Les données de pollutions (ex : pesticides) sont à ranger dans « risques : risque sanitaires ».</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/hydrographie/zonages_perimetres_et_programmes_d_action/">
+    <skos:prefLabel xml:lang="fr">hydrographie : zonages périmètres et programmes d’action</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Regroupe tous les zonages et périmètres, réglementaires ou non, ainsi que les programmes d'actions relatifs à l'eau (continentale et maritime) et/ou à sa gestion.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/hydrographie/autres/">
+    <skos:prefLabel xml:lang="fr">hydrographie : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/limites_administratives/">
+    <skos:prefLabel xml:lang="fr">limites administratives et découpage des territoires : limites administratives</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Sectorisation des territoires, limites officielles de gestion administrative.
+Les découpages thématiques sont à ranger dans les thématiques correspondantes (ex : SDAGE et Natura 2000).</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/grilles_et_carroyages/">
+    <skos:prefLabel xml:lang="fr">limites administratives et découpage des territoires : grilles et carroyages</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Découpage du territoire en carreaux, mailles, quadrillage.
+Les découpages thématiques sont à ranger dans les thématiques correspondantes (ex : carreaux INSEE).
+Les emprises des dalles d'ortho sont à mettre dans « Référentiels : Imagerie ».
+Les carroyages servant aux plans de villes sont à ranger dans « Référentiels : fonds cartographiques ».</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/limites_administratives_et_decoupage_des_territoires/autres/">
+    <skos:prefLabel xml:lang="fr">limites administratives et découpage des territoires : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/organisation_et_planification/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : organisation et planification</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ce qui est en relation avec l'organisation, la planification des transports sur un territoire dans un esprit de multi-modalité.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/deplacement_collectif/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : déplacement collectif</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données sur tous les réseaux de transport collectif.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/modes_actifs/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : modes actifs</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Description de l'existant en matière de déplacement doux (piétons / vélo) hors itinéraires touristiques.
+Appelés également “modes doux”.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/stationnement/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : stationnement</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données sur le stationnement automobile.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_aerien/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : transport aérien</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui a trait au transport aérien.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_ferroviaire/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : transport ferroviaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui se rapporte aux infrastructures ferrées et à leur utilisation.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_maritime_et_fluvial/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : transport maritime et fluvial</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données sur le transport maritime et fluvial, y compris les infrastructures.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/transport_routier_et_voirie/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : transport routier et voirie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données métier de gestion ou d'exploitation de la voirie (hors référentiel de voies généraliste à ranger dans « référentiels : voies et adresses »).</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/mobilite_transport/autres/">
+    <skos:prefLabel xml:lang="fr">mobilité transport : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/mode_d_occupation_du_sol/">
+    <skos:prefLabel xml:lang="fr">occupation du sol sol sous-sol : mode d’occupation du sol</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données décrivant l'occupation des sols et les surfaces anthropisées.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/sol_et_sous-sol/">
+    <skos:prefLabel xml:lang="fr">occupation du sol sol sous-sol : sol et sous-sol</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives au sol et au sous-sol, y compris les données du BRGM.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/occupation_du_sol_sol_sous-sol/autres/">
+    <skos:prefLabel xml:lang="fr">occupation du sol sol sous-sol : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/bocage/">
+    <skos:prefLabel xml:lang="fr">patrimoine naturel : bocage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données sur le bocage, les haies et talus : études et gestion.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/habitats_et_biotopes/">
+    <skos:prefLabel xml:lang="fr">patrimoine naturel : habitats et biotopes</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Regroupe les données décrivant les habitats et les espèces, sans faire de distinction entre terrien et maritime.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/zonages_de_protection_de_gestion_ou_d_intervention/">
+    <skos:prefLabel xml:lang="fr">patrimoine naturel : zonages de protection de gestion ou d’intervention</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Regroupe tous les zonages liés au patrimoine naturel.
+Ne concerne pas uniquement les zonages réglementaires officiels.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_naturel/autres/">
+    <skos:prefLabel xml:lang="fr">patrimoine naturel : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/patrimoine_architectural_et_culturel/">
+    <skos:prefLabel xml:lang="fr">patrimoine tourisme loisirs : patrimoine architectural et culturel</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tout ce qui est relatif aux bâtis et monuments historiques, lieux ou bâtis d'intérêt patrimonial ou culturel.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/tourisme_et_loisirs/">
+    <skos:prefLabel xml:lang="fr">patrimoine tourisme loisirs : tourisme et loisirs</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données relatives aux équipements touristiques et de loisirs.
+Si ce sont des données économiques ou financières : ranger dans « Activité économique : Entreprises, commerces »</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/patrimoine_tourisme_loisirs/autres/">
+    <skos:prefLabel xml:lang="fr">patrimoine tourisme loisirs : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/phototheque/photographies_aeriennes_obliques/">
+    <skos:prefLabel xml:lang="fr">photothèque : photographies aériennes obliques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Concerne les photos obliques prises à partir de vecteurs aériens : avion, ballon, ULM, drone.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/phototheque/photographies_geolocalisees/">
+    <skos:prefLabel xml:lang="fr">photothèque : photographies géolocalisées</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Photographies dont la localisation de la prise de vue est décrite par des coordonnées et/ou un angle de prise de vue par rapport au nord géographique.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/phototheque/autres/">
+    <skos:prefLabel xml:lang="fr">photothèque : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/altitude/">
+    <skos:prefLabel xml:lang="fr">référentiels : altitude</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données décrivant une hauteur ou une altitude.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/cadastre/">
+    <skos:prefLabel xml:lang="fr">référentiels : cadastre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Cadastre DGFiP de référence, RPCU.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/imagerie/">
+    <skos:prefLabel xml:lang="fr">référentiels : imagerie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Orthophotographies ou photos aériennes géoréférencées, images satellitales ou aéroportées.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/fonds_cartographiques/">
+    <skos:prefLabel xml:lang="fr">référentiels : fonds cartographiques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les fonds de plans à usage généraliste : plans de ville, plans urbains, Scan25, OpenStreetMap, etc</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/referentiels_maritimes/">
+    <skos:prefLabel xml:lang="fr">référentiels : référentiels maritimes</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données de référence qui concerne le domaine maritime, y compris les données du SHOM disponibles dans le SIG interne.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/topographie_et_tres_grande_echelle/">
+    <skos:prefLabel xml:lang="fr">référentiels : topographie et très grande échelle</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données de précision topographique et données à très grande échelle</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/voies_et_adresses/">
+    <skos:prefLabel xml:lang="fr">référentiels : voies et adresses</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données de référence (non métier) sur les voies et les adresses,</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/referentiels/autres/">
+    <skos:prefLabel xml:lang="fr">référentiels : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/reseaux/transport_d_energie/">
+    <skos:prefLabel xml:lang="fr">réseaux : transport d’énergie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Réseaux et équipements liés à l'énergie.
+Les sites sont compris comme des nœuds du réseau.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/reseaux/reseaux_humides/">
+    <skos:prefLabel xml:lang="fr">réseaux : réseaux humides</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les réseaux et les équipements  véhiculant des eaux propres ou usées.
+Comprend les données d’usage : production, consommation, etc.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/reseaux/reseaux_numeriques/">
+    <skos:prefLabel xml:lang="fr">réseaux : réseaux numériques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les réseaux de communication filaires ou hertzien et leurs équipements, y compris les réseaux de communication analogique (boucle locale cuivre France Télécom).
+Les éventuelles servitudes qui en résultent sont dans « urbanisme foncier habitat : planification et documents d'urbanisme ».</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/reseaux/eclairage_et_signalisation/">
+    <skos:prefLabel xml:lang="fr">réseaux : éclairage et signalisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les réseaux et équipements relatifs à l'éclairage public et les réseaux de signalisation.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/reseaux/autres/">
+    <skos:prefLabel xml:lang="fr">réseaux : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/risques_et_securite/securite_civile_et_forces_de_l_ordre/">
+    <skos:prefLabel xml:lang="fr">risques et sécurité : sécurité civile et forces de l'ordre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à l'organisation des services de police et de gendarmerie, des SDIS et des armées.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_naturels/">
+    <skos:prefLabel xml:lang="fr">risques et sécurité : risques naturels</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à la description et à la gestion de la réponse aux risques naturels : inondation, submersion, érosion, etc</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_sanitaires/">
+    <skos:prefLabel xml:lang="fr">risques et sécurité : risques sanitaires</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à la description et à la gestion de la réponse aux risques sanitaires : qualité de l’eau, qualité de l’air, ondes électromagnétiques, bruit, etc.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/risques_et_securite/risques_technologiques/">
+    <skos:prefLabel xml:lang="fr">risques et sécurité : risques technologiques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données relatives aux risques technologiques et industriels.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/risques_et_securite/autres/">
+    <skos:prefLabel xml:lang="fr">risques et sécurité : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/culture_et_sport/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : culture et sport</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données relatives au domaine culturel et au sport en général.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/education_enseignement_social_et_citoyennete/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : éducation enseignement social et citoyenneté</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Données relatives à l'éducation, l'enseignement, à l'action sociale et à la citoyenneté.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/administrations/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : administrations</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">La localisation des équipements relatifs aux administrations.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/sante/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : santé</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives à la santé, au système de santé, à la médecine.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/points_d_interets/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : points d’intérêts</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Concerne les bases de données conçues dans une logique de « points d'intérêt » (POI). Ces bases sont multi-thématiques par essence et peuvent regrouper des informations gérées de façon unitaire dans d'autres jeux de données.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/services_et_equipements_publics/autres/">
+    <skos:prefLabel xml:lang="fr">services et équipements publics : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/immobilier_et_logement/">
+    <skos:prefLabel xml:lang="fr">logement politique de la ville : immobilier et logement</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Identification et description des immeubles ou ensembles immobilier.
+Les données relatives au logement et à l'habitat humain.
+Toutes les données relatives aux politiques sur l'habitat, aux marchés locaux, etc.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/politique_de_la_ville/">
+    <skos:prefLabel xml:lang="fr">logement politique de la ville : politique de la ville</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Toutes les données relatives à la politique de la ville.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/logement_politique_de_la_ville/autres/">
+    <skos:prefLabel xml:lang="fr">logement politique de la ville : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/zonages_divers/">
+    <skos:prefLabel xml:lang="fr">urbanisme et foncier : zonages divers</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tous les zonages sauf les zonages strictement PLU, Foncier et Droit des Sols.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/foncier_et_droit_des_sols/">
+    <skos:prefLabel xml:lang="fr">urbanisme et foncier : foncier et droit des sols</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Les données relatives au foncier et le droit des sols.
+Le foncier agricole est à classer ici.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/planification_et_documents_d_urbanisme/">
+    <skos:prefLabel xml:lang="fr">urbanisme et foncier : planification et documents d'urbanisme</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Toutes les données strictement liées aux Plans locaux d'Urbanisme et Plan d'Occupation des Sols, les Servitudes d'Utilité publique et les schémas directeurs d'aménagement des territoires.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/projets/">
+    <skos:prefLabel xml:lang="fr">urbanisme et foncier : projets</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Projets d’aménagement, projets urbains.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geobretagne.fr/thesaurus/urbanisme_et_foncier/autres/">
+    <skos:prefLabel xml:lang="fr">urbanisme et foncier : autres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://www.geobretagne.fr/thesaurus"/>
+  </rdf:Description>
+</rdf:RDF>
