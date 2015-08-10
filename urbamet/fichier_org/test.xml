@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resultset>
+  <records>
+    <!--1-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0009532">
+      <CLE>9532</CLE>
+      <DISPLAY>pôle d'échanges</DISPLAY>
+      <SORT_1>POLE D'ECHANGES</SORT_1>
+      <DISPLAY_1>pôle d'échanges</DISPLAY_1>
+      <SORT_2>EXCHANGES POLE</SORT_2>
+      <DE_ENG>exchanges pole</DE_ENG>
+      <SORT_3>INTERCAMBIADOR</SORT_3>
+      <DE_ESP>intercambiador</DE_ESP>
+      <DATE_CREAT>2007-10-17</DATE_CREAT>
+      <UTIL_CREAT>CEDURB04</UTIL_CREAT>
+      <DATE_MAJ>2007-10-17</DATE_MAJ>
+      <DE>pôle d'échanges</DE>
+      <TG xlink:href="Urbanisme-0002143">infrastructure de transport</TG>
+      <REJ>centre d'échanges</REJ>
+    </record>
+    <!--2-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0009527">
+      <CLE>9527</CLE>
+      <DISPLAY>économie résidentielle</DISPLAY>
+      <SORT_1>ECONOMIE RESIDENTIELLE</SORT_1>
+      <DISPLAY_1>économie résidentielle</DISPLAY_1>
+      <SORT_2>RESIDENTIAL ECONOMY</SORT_2>
+      <DE_ENG>Residential economy</DE_ENG>
+      <SORT_3>ECONOMIA RESIDENCIAL</SORT_3>
+      <DE_ESP>economía residencial</DE_ESP>
+      <DATE_CREAT>2007-09-26</DATE_CREAT>
+      <UTIL_CREAT>CEDURB04</UTIL_CREAT>
+      <DATE_MAJ>2007-09-26</DATE_MAJ>
+      <DE>économie résidentielle</DE>
+      <TG xlink:href="Urbanisme-0001872">forme de développement</TG>
+      <HIERARCHIE>économie résidentielle;forme de développement;développement économique;dynamique économique;économie</HIERARCHIE>
+      <HIER_TG>forme de développement;développement économique;dynamique économique;économie</HIER_TG>
+    </record>
+  
+  
+  
+    <!--5-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0009531">
+      <CLE>9531</CLE>
+      <DISPLAY>gens du voyage</DISPLAY>
+      <SORT_1>GENS DU VOYAGE</SORT_1>
+      <DISPLAY_1>gens du voyage</DISPLAY_1>
+      <SORT_2>TRAVELLERS</SORT_2>
+      <DE_ENG>Travellers</DE_ENG>
+      <SORT_3>GENTE VIAJERA</SORT_3>
+      <DE_ESP>gente viajera</DE_ESP>
+      <DATE_CREAT>2007-09-26</DATE_CREAT>
+      <UTIL_CREAT>CEDURB04</UTIL_CREAT>
+      <DATE_MAJ>2007-09-26</DATE_MAJ>
+      <DE>gens du voyage</DE>
+      <TG xlink:href="Urbanisme-0001986">groupe de fait</TG>
+      <HIER_TG>groupe de fait;groupe;différenciation sociale;sociologie;sciences humaines</HIER_TG>
+      <HIERARCHIE>gens du voyage;groupe de fait;groupe;différenciation sociale;sociologie;sciences humaines</HIERARCHIE>
+    </record>
+    <!--1026-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0001986">
+      <CLE>1986</CLE>
+      <DISPLAY>groupe de fait</DISPLAY>
+      <SORT_1>GROUPE DE FAIT</SORT_1>
+      <DISPLAY_1>groupe de fait</DISPLAY_1>
+      <SORT_2>DE FACTO COMMITTEE</SORT_2>
+      <DE_ENG>de facto committee</DE_ENG>
+      <SORT_3>GRUPO DE HECHO</SORT_3>
+      <DE_ESP>grupo de hecho</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2007-09-26</DATE_MAJ>
+      <DE>groupe de fait</DE>
+      <TG xlink:href="Urbanisme-0001982">groupe</TG>
+      <TS xlink:href="Urbanisme-0000878">collectivité</TS>
+      <TS xlink:href="Urbanisme-0001777">famille</TS>
+      <TS xlink:href="Urbanisme-0001898">frontalier</TS>
+      <TS xlink:href="Urbanisme-0009531">gens du voyage</TS>
+      <TS xlink:href="Urbanisme-0001988">groupe de vie communautaire</TS>
+      <TS xlink:href="Urbanisme-0001989">groupe fonctionnel</TS>
+      <TS xlink:href="Urbanisme-0001990">groupe linguistique</TS>
+      <TS xlink:href="Urbanisme-0001994">groupe socio-économique</TS>
+      <TS xlink:href="Urbanisme-0001995">groupe spatial</TS>
+      <TS xlink:href="Urbanisme-0002829">paroisse</TS>
+      <TS xlink:href="Urbanisme-0009530">personne à mobilité réduite</TS>
+      <TS xlink:href="Urbanisme-0002905">personne isolée</TS>
+      <TS xlink:href="Urbanisme-0003643">société globale</TS>
+      <TS xlink:href="Urbanisme-0003648">société rurale</TS>
+      <TS xlink:href="Urbanisme-0003649">société urbaine</TS>
+      <TS xlink:href="Urbanisme-0005815">usager</TS>
+      <HIER_TG>groupe;différenciation sociale;sociologie;sciences humaines</HIER_TG>
+      <HIERARCHIE>groupe de fait;groupe;différenciation sociale;sociologie;sciences humaines</HIERARCHIE>
+    </record>
+    <!--1200-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0001297">
+      <CLE>1297</CLE>
+      <DISPLAY>différenciation sociale</DISPLAY>
+      <SORT_1>DIFFERENCIATION SOCIALE</SORT_1>
+      <DISPLAY_1>différenciation sociale</DISPLAY_1>
+      <SORT_2>SOCIAL DIFFERENCIATION</SORT_2>
+      <DE_ENG>social differenciation</DE_ENG>
+      <SORT_3>DIFERENCIACION SOCIAL</SORT_3>
+      <DE_ESP>diferenciación social</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>différenciation sociale</DE>
+      <TG xlink:href="Urbanisme-0003650">sociologie</TG>
+      <TS xlink:href="Urbanisme-0001982">groupe</TS>
+      <TS xlink:href="Urbanisme-0003726">stratification</TS>
+      <TS xlink:href="Urbanisme-0003737">structure sociale</TS>
+      <HIER_TG>sociologie;sciences humaines</HIER_TG>
+      <HIERARCHIE>différenciation sociale;sociologie;sciences humaines</HIERARCHIE>
+    </record>
+    <!--3019-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0003650">
+      <CLE>3650</CLE>
+      <DISPLAY>sociologie</DISPLAY>
+      <SORT_1>SOCIOLOGIE</SORT_1>
+      <DISPLAY_1>sociologie</DISPLAY_1>
+      <SORT_2>SOCIOLOGY</SORT_2>
+      <DE_ENG>sociology</DE_ENG>
+      <SORT_3>SOCIOLOGIA</SORT_3>
+      <DE_ESP>sociología</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>sociologie</DE>
+      <TG xlink:href="Urbanisme-0003538">sciences humaines</TG>
+      <TS xlink:href="Urbanisme-0001297">différenciation sociale</TS>
+      <TS xlink:href="Urbanisme-0001397">dynamique de l'action collective</TS>
+      <TS xlink:href="Urbanisme-0002431">mécanisme de l'action collective</TS>
+      <TS xlink:href="Urbanisme-0003789">système culturel</TS>
+      <HIER_TG>sciences humaines</HIER_TG>
+      <HIERARCHIE>sociologie;sciences humaines</HIERARCHIE>
+    </record>
+    <!--2862-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0003538">
+      <CLE>3538</CLE>
+      <DISPLAY>sciences humaines</DISPLAY>
+      <SORT_1>SCIENCES HUMAINES</SORT_1>
+      <DISPLAY_1>sciences humaines</DISPLAY_1>
+      <SORT_2>SOCIAL SCIENCES</SORT_2>
+      <DE_ENG>social sciences</DE_ENG>
+      <SORT_3>CIENCIAS HUMANAS</SORT_3>
+      <DE_ESP>ciencias humanas</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>sciences humaines</DE>
+      <TS xlink:href="Urbanisme-0000215">anthropologie</TS>
+      <TS xlink:href="Urbanisme-0000252">archéologie</TS>
+      <TS xlink:href="Urbanisme-0001221">démographie</TS>
+      <TS xlink:href="Urbanisme-0004652">ethnologie</TS>
+      <TS xlink:href="Urbanisme-0001939">géographie humaine</TS>
+      <TS xlink:href="Urbanisme-0002035">histoire</TS>
+      <TS xlink:href="Urbanisme-0002260">linguistique</TS>
+      <TS xlink:href="Urbanisme-0002931">philosophie</TS>
+      <TS xlink:href="Urbanisme-0003238">psychanalyse</TS>
+      <TS xlink:href="Urbanisme-0003240">psychologie</TS>
+      <TS xlink:href="Urbanisme-0003650">sociologie</TS>
+      <REJ>champ de la connaissance</REJ>
+    </record>
+  </records>
+</resultset>
