@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resultset>
+  <records>
+    <!--4130-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0005763">
+      <CLE>5763</CLE>
+      <DISPLAY>collectivités territoriales</DISPLAY>
+      <SORT_1>COLLECTIVITES TERRITORIALES</SORT_1>
+      <DISPLAY_1>collectivités territoriales</DISPLAY_1>
+      <SORT_2>TERRITORIAL COMMUNITIES</SORT_2>
+      <DE_ENG>territorial communities</DE_ENG>
+      <SORT_3>COLECTIVIDADES TERRITORIALES</SORT_3>
+      <DE_ESP>colectividades territoriales</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>collectivités territoriales</DE>
+      <TS xlink:href="Urbanisme-0001563">entité territoriale</TS>
+      <TS xlink:href="Urbanisme-0001817">finances locales</TS>
+      <VA xlink:href="Urbanisme-0000737">charte intercommunale</VA>
+      <VA xlink:href="Urbanisme-0001071">coopération intercommunale</VA>
+      <VA xlink:href="Urbanisme-0001279">développement local</VA>
+      <VA xlink:href="Urbanisme-0001842">fonction publique territoriale</VA>
+      <REJ>collectivité territoriale</REJ>
+    </record>
+    <!--1602-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0001563">
+      <CLE>1563</CLE>
+      <DISPLAY>entité territoriale</DISPLAY>
+      <SORT_1>ENTITE TERRITORIALE</SORT_1>
+      <DISPLAY_1>entité territoriale</DISPLAY_1>
+      <SORT_2>TERRITORIAL ENTITY</SORT_2>
+      <DE_ENG>territorial entity</DE_ENG>
+      <SORT_3>ENTIDAD TERRITORIAL</SORT_3>
+      <DE_ESP>entidad territorial</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>entité territoriale</DE>
+      <TG xlink:href="Urbanisme-0005763">collectivités territoriales</TG>
+      <TS xlink:href="Urbanisme-0000786">circonscription territoriale</TS>
+      <TS xlink:href="Urbanisme-0003092">pouvoir local</TS>
+      <TS xlink:href="Urbanisme-0003367">regroupement territorial</TS>
+      <TS xlink:href="Urbanisme-0004119">unité territoriale</TS>
+      <HIER_TG>collectivités territoriales</HIER_TG>
+      <HIERARCHIE>entité territoriale;collectivités territoriales</HIERARCHIE>
+    </record>
+    <!--3955-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0004119">
+      <CLE>4119</CLE>
+      <DISPLAY>unité territoriale</DISPLAY>
+      <SORT_1>UNITE TERRITORIALE</SORT_1>
+      <DISPLAY_1>unité territoriale</DISPLAY_1>
+      <SORT_2>TERRITORIAL UNIT</SORT_2>
+      <DE_ENG>territorial unit</DE_ENG>
+      <SORT_3>UNIDAD TERRITORIAL</SORT_3>
+      <DE_ESP>unidad territorial</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>unité territoriale</DE>
+      <TG xlink:href="Urbanisme-0001563">entité territoriale</TG>
+      <TS xlink:href="Urbanisme-0000879">collectivité locale</TS>
+      <HIER_TG>entité territoriale;collectivités territoriales</HIER_TG>
+      <HIERARCHIE>unité territoriale;entité territoriale;collectivités territoriales</HIERARCHIE>
+    </record>
+    <!--902-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0000879">
+      <CLE>879</CLE>
+      <DISPLAY>collectivité locale</DISPLAY>
+      <SORT_1>COLLECTIVITE LOCALE</SORT_1>
+      <DISPLAY_1>collectivité locale</DISPLAY_1>
+      <SORT_2>LOCAL COMMUNITY</SORT_2>
+      <DE_ENG>local community</DE_ENG>
+      <SORT_3>COLECTIVIDAD LOCAL</SORT_3>
+      <DE_ESP>colectividad local</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>collectivité locale</DE>
+      <TG xlink:href="Urbanisme-0004119">unité territoriale</TG>
+      <TS xlink:href="Urbanisme-0000917">commune</TS>
+      <TS xlink:href="Urbanisme-0001228">département</TS>
+      <TS xlink:href="Urbanisme-0003351">région administrative</TS>
+      <TS xlink:href="Urbanisme-0003895">territoire d'outre-mer</TS>
+      <HIER_TG>unité territoriale;entité territoriale;collectivités territoriales</HIER_TG>
+      <HIERARCHIE>collectivité locale;unité territoriale;entité territoriale;collectivités territoriales</HIERARCHIE>
+    </record>
+    <!--356-->
+    <record xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="Urbanisme-0000917">
+      <CLE>917</CLE>
+      <DISPLAY>commune</DISPLAY>
+      <SORT_1>COMMUNE</SORT_1>
+      <DISPLAY_1>commune</DISPLAY_1>
+      <SORT_2>COMMUNE</SORT_2>
+      <DE_ENG>commune</DE_ENG>
+      <SORT_3>MUNICIPIO</SORT_3>
+      <DE_ESP>municipio</DE_ESP>
+      <DATE_CREAT>2002-05-23</DATE_CREAT>
+      <DATE_MAJ>2005-12-20</DATE_MAJ>
+      <DE>commune</DE>
+      <TG xlink:href="Urbanisme-0000879">collectivité locale</TG>
+      <HIER_TG>collectivité locale;unité territoriale;entité territoriale;collectivités territoriales</HIER_TG>
+      <HIERARCHIE>commune;collectivité locale;unité territoriale;entité territoriale;collectivités territoriales</HIERARCHIE>
+    </record>
+  </records>
+</resultset>

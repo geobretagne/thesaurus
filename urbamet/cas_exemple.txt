@@ -1,0 +1,9 @@
+
+
+collectivités territoriales
+    entité territoriale
+        unité territoriale
+          collectivité locale
+            commune
+
+

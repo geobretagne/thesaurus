@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Thesaurus URBAMET
+  version 0.1 du 04/08/2015 créée par GéoBretagne
+  basée sur la version XX du thesaurus original fourni par le Ministère de l'Écologie, du Développement durable et de l'Énergie
+
+  http://www.urbamet.com/banque-de-donnees-urbamet-r9.html
+  accès au thesaurus original en mode web : http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/navigation.xhtml
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" >
+  <skos:ConceptScheme rdf:about="http://www.geobretagne.fr/thesaurus">
+    <dc:title>URBAMET v 0.1</dc:title>
+    <dc:description>Thesaurus URBAMET créé par GéoBretagne.</dc:description>
+    <dc:creator>
+      <foaf:Organization>
+        <foaf:name>GéoBretagne</foaf:name>
+      </foaf:Organization>
+    </dc:creator>
+    <dcterms:issued>2015-08-05</dcterms:issued>
+    <dcterms:modified>2015-08-05</dcterms:modified>
+  </skos:ConceptScheme>
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/"/>
+    <skos:prefLabel xml:lang="fr">collectivités territoriales</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">collectivités territoriales</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/"/>
+    <skos:prefLabel xml:lang="fr">entité territoriale</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">entité territoriale</skos:scopeNote>
+    <skos:broader rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/" />
+    <skos:narrower rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/"/>
+    <skos:prefLabel xml:lang="fr">unité territoriale</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">unité territoriale</skos:scopeNote>
+    <skos:broader rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/" />
+    <skos:narrower rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/collectivite_locale/" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/collectivite_locale/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/"/>
+    <skos:prefLabel xml:lang="fr">collectivité locale</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">collectivité locale</skos:scopeNote>
+    <skos:broader rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/" />
+    <skos:narrower rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/collectivite_locale/commune/" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/collectivite_locale/commune/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/"/>
+    <skos:prefLabel xml:lang="fr">commune</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">commune</skos:scopeNote>
+    <skos:broader rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/entite_territoriale/unite_territoriale/collectivite_locale/" />
+  </rdf:Description>
+  <!-- TODO : faire la hiérarchie -->
+  <!-- TopConcepts -->
+  <rdf:Description rdf:about="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/">
+    <skos:hasTopConcept rdf:resource="http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus/collectivites_territoriales/"/>
+  </rdf:Description>
+</rdf:RDF>
