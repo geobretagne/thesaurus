@@ -23,9 +23,9 @@ import xml.etree.ElementTree as etree
 from array import array
 
 rep_root = "."
-fichier_xml_org = rep_root + "/fichier_org/donnees_thesaurus.xml"
+fichier_xml_org = rep_root + "/fichier_org/test_commune.xml"
 #fichier_xml_org = rep_root + "/fichier_org/donnees_thesaurus.xml"
-fichier_rdf = rep_root + "/out/urbamet.rdf.xml"
+fichier_rdf = rep_root + "/out/urbamet.rdf.skos.xml"
 
 root_url = "http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/thesaurus"
 
@@ -299,7 +299,10 @@ def unaccent(concept):
 
 
 def CreerStructHierarchie():
-    
+    #
+    # on va lire une première fois le fichier XML pour en retirer uniquement les infos
+    # de dépendance parents (broader) / enfant (narrower)
+
     # load and parse
     tree = etree.ElementTree(file=fichier_xml_org)
     root = tree.getroot()
@@ -321,10 +324,10 @@ def CreerStructHierarchie():
             for concept in reversed(hierarchie_tab) :
                 concept = unaccent(concept)
                 hierarchie_url += concept + "/"
-            
+
             r = list(reversed(hierarchie_tab))
             broader = '/' + unaccent('/'.join(r[0:-1])) + "/"
-            
+
             if not newtree.has_key('/' + hierarchie_url):
                 newtree['/' + hierarchie_url] = {
                     "broader": root_url + broader,
@@ -332,7 +335,7 @@ def CreerStructHierarchie():
                 }
             else:
                 newtree['/' + hierarchie_url]["broader"] = root_url + broader
-                
+
             if len(hierarchie_tab) > 1:
                 # populate narrower records of parent nodes
                 if newtree.has_key(broader):
@@ -342,8 +345,8 @@ def CreerStructHierarchie():
                         "broader": "", # to be filled later
                         "narrower": [root_url + '/' + hierarchie_url]
                     }
-            
-    
+
+
     return newtree
 
 #-------------------------------------------------------------------------------
