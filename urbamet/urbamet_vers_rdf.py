@@ -1,13 +1,10 @@
 ﻿# -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
 #
-# Author:      m.reboux
+# Author:      Maël REBOUX, François Van der Biest
 #
-# Created:     03/08/2015
-# Copyright:   (c) m.reboux 2015
-# Licence:     <your licence>
+# Created:     17/08/2015
+# Licence:     GNU GPL
 
 
 # docs :
