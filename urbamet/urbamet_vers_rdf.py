@@ -22,8 +22,8 @@ import codecs
 import xml.etree.ElementTree as etree
 from array import array
 
-rep_root = "D:/metadonnees/thesaurus/urbamet"
-fichier_xml_org = rep_root + "/fichier_org/test.xml"
+rep_root = "."
+fichier_xml_org = rep_root + "/fichier_org/donnees_thesaurus.xml"
 #fichier_xml_org = rep_root + "/fichier_org/donnees_thesaurus.xml"
 fichier_rdf = rep_root + "/out/urbamet.rdf.xml"
 
@@ -32,10 +32,10 @@ root_url = "http://notx.documentation.developpement-durable.gouv.fr/Urbanisme/th
 # tableau des TopConcept
 TopConceptTab = []
 
-#-------------------------------------------------------------------------------
 
 
-def EcrireMotsCles():
+
+def EcrireMotsCles(t):
 
     # load and parse
     tree = etree.ElementTree(file=fichier_xml_org)
@@ -57,6 +57,7 @@ def EcrireMotsCles():
         urbamet_id = ""
         hierarchie_brute = ""
         hierarchie_url = ""
+        parent_hierarchie_url = ""
         label_fr = ""
         label_en = ""
         label_es = ""
@@ -92,24 +93,13 @@ def EcrireMotsCles():
             # on les lit en ordre inverse
             for concept in reversed(hierarchie_tab) :
                 # on fait un ensemble de remplacement
-                concept = concept.replace(" ","_")
-                concept = concept.replace("-","_")
-                concept = concept.replace("'","_")
-                concept = concept.replace("__","_")
-                concept = concept.replace("___","_")
-                concept = concept.replace(u"é","e")
-                concept = concept.replace(u"è","e")
-                concept = concept.replace(u"ê","e")
-                concept = concept.replace(u"ë","e")
-                concept = concept.replace(u"à","a")
-                concept = concept.replace(u"â","a")
-                concept = concept.replace(u"ù","u")
-                concept = concept.replace(u"û","u")
-                concept = concept.replace(u"ô","o")
-                concept = concept.replace(u"î","i")
-                concept = concept.replace(u"ï","i")
-
+                concept = unaccent(concept)
                 hierarchie_url += concept + "/"
+
+            for concept in list(reversed(hierarchie_tab))[0:-1] :
+                # on fait un ensemble de remplacement
+                concept = unaccent(concept)
+                parent_hierarchie_url += concept + "/"
 
         if hierarchie_url == "" :
             # ça veut dire que l'on a potentiellement un TopConcept
@@ -121,29 +111,37 @@ def EcrireMotsCles():
         # on ouvre le fichier RDF en mode ajout
         f_rdf = codecs.open(fichier_rdf, 'a', 'utf-8')
 
-        # les infos générales du mot-clé / concept
-        # 1er tag contient l'url de hierarchie
-        f_rdf.writelines(u"  <rdf:Description rdf:about=\"" + root_url + "/" + hierarchie_url + "\">\n")
-        f_rdf.writelines(u"""    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>\n""")
-        f_rdf.writelines(u"    <skos:inScheme rdf:resource=\"" + root_url + "/\"/>\n")
+        if hierarchie_url != "" :
+            # les infos générales du mot-clé / concept
+            # 1er tag contient l'url de hierarchie
+            f_rdf.writelines(u"  <rdf:Description rdf:about=\"" + root_url + "/" + hierarchie_url + "\">\n")
+            f_rdf.writelines(u"""    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>\n""")
+            f_rdf.writelines(u"    <skos:inScheme rdf:resource=\"" + root_url + "/\"/>\n")
 
-        # FR
-        f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"fr\">" + label_fr + "</skos:prefLabel>\n")
-        f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"fr\">" + label_fr + "</skos:scopeNote>\n")
+            # FR
+            f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"fr\">" + label_fr + "</skos:prefLabel>\n")
+            f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"fr\">" + label_fr + "</skos:scopeNote>\n")
 
-        # EN
-        #f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"en\">" + label_en + "</skos:prefLabel>\n")
-        #f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"en\">" + label_en + "</skos:scopeNote>\n")
+            # EN
+            #f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"en\">" + label_en + "</skos:prefLabel>\n")
+            #f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"en\">" + label_en + "</skos:scopeNote>\n")
 
-        # ES
-        #f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"es\">" + label_es + "</skos:prefLabel>\n")
-        #f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"en\">" + label_es + "</skos:scopeNote>\n")
+            # ES
+            #f_rdf.writelines(u"    <skos:prefLabel xml:lang=\"es\">" + label_es + "</skos:prefLabel>\n")
+            #f_rdf.writelines(u"    <skos:scopeNote xml:lang=\"en\">" + label_es + "</skos:scopeNote>\n")
 
-        # rapple : manque la hierarchie broader / narrower
-        f_rdf.writelines(u"    <!-- TODO : hierarchie broader / narrower -->\n")
+            f_rdf.writelines(u"    <skos:broader rdf:resource=\""+t["/"+hierarchie_url]["broader"]+"\" />\n")
+            for n in t["/"+hierarchie_url]["narrower"]:
+                f_rdf.writelines(u"    <skos:narrower rdf:resource=\""+n+"\" />\n")
 
-        # fin du concept
-        f_rdf.writelines(u"  </rdf:Description>\n")
+            # write related
+            if parent_hierarchie_url != "":
+                for n in t["/"+parent_hierarchie_url]["narrower"]:
+                    if n != root_url + "/" + hierarchie_url :
+                        f_rdf.writelines(u"    <skos:related rdf:resource=\""+n+"\" />\n")
+
+            # fin du concept
+            f_rdf.writelines(u"  </rdf:Description>\n")
 
         # on ferme le fichier RDF
         f_rdf.close()
@@ -208,13 +206,6 @@ def EcrireHierarchie():
     # on ouvre le fichier en mode ajout
     f_rdf = codecs.open(fichier_rdf, 'a', 'utf-8')
 
-    # pour chaque mot-clé il faut lui indiquer s'il a
-        # un parent ->  broader
-        # un ou des frères au même niveau -> narrower
-        # related ??
-    # c'est l'url qui donne la hiérarchie et le chemin
-    # elle doit être raccord avec les infos narrower et broader
-
     # exemple
     str_ex = """
   <rdf:Description rdf:about="http://www.metropole.rennes.fr/thesaurus/sig/rm_services/rm.dgepib.di/">
@@ -260,25 +251,7 @@ def EcrireTopConcepts() :
 
     for TopConcept in TopConceptTab :
         if TopConcept <> "" :
-            #print TopConcept
-            # on fait un ensemble de remplacement
-            TopConcept = TopConcept.replace(" ","_")
-            TopConcept = TopConcept.replace("-","_")
-            TopConcept = TopConcept.replace("'","_")
-            TopConcept = TopConcept.replace("__","_")
-            TopConcept = TopConcept.replace("___","_")
-            TopConcept = TopConcept.replace(u"é","e")
-            TopConcept = TopConcept.replace(u"è","e")
-            TopConcept = TopConcept.replace(u"ê","e")
-            TopConcept = TopConcept.replace(u"ë","e")
-            TopConcept = TopConcept.replace(u"à","a")
-            TopConcept = TopConcept.replace(u"â","a")
-            TopConcept = TopConcept.replace(u"ù","u")
-            TopConcept = TopConcept.replace(u"û","u")
-            TopConcept = TopConcept.replace(u"ô","o")
-            TopConcept = TopConcept.replace(u"î","i")
-            TopConcept = TopConcept.replace(u"ï","i")
-
+            TopConcept = unaccent(TopConcept)
             f_rdf.writelines(u"    <skos:hasTopConcept rdf:resource=\"" + root_url + "/" + TopConcept + "/" + "\"/>\n")
             iTopConcept += 1
 
@@ -305,12 +278,73 @@ def EcrireFinFichierRDF():
 
 
 
+def unaccent(concept):
+    concept = concept.replace(" ","_")
+    concept = concept.replace("-","_")
+    concept = concept.replace("'","_")
+    concept = concept.replace("__","_")
+    concept = concept.replace("___","_")
+    concept = concept.replace(u"é","e")
+    concept = concept.replace(u"è","e")
+    concept = concept.replace(u"ê","e")
+    concept = concept.replace(u"ë","e")
+    concept = concept.replace(u"à","a")
+    concept = concept.replace(u"â","a")
+    concept = concept.replace(u"ù","u")
+    concept = concept.replace(u"û","u")
+    concept = concept.replace(u"ô","o")
+    concept = concept.replace(u"î","i")
+    concept = concept.replace(u"ï","i")
+    return concept
 
 
+def CreerStructHierarchie():
+    
+    # load and parse
+    tree = etree.ElementTree(file=fichier_xml_org)
+    root = tree.getroot()
+    records = root[0]
 
+    newtree = {}
 
+    for record in records:
 
+        hierarchie_brute = ""
+        hierarchie_url = ""
 
+        for urba_motcle in record:
+            if urba_motcle.tag == "HIERARCHIE": hierarchie_brute = urba_motcle.text
+
+        if hierarchie_brute <> "" :
+            hierarchie_tab = hierarchie_brute.split(";")
+
+            for concept in reversed(hierarchie_tab) :
+                concept = unaccent(concept)
+                hierarchie_url += concept + "/"
+            
+            r = list(reversed(hierarchie_tab))
+            broader = '/' + unaccent('/'.join(r[0:-1])) + "/"
+            
+            if not newtree.has_key('/' + hierarchie_url):
+                newtree['/' + hierarchie_url] = {
+                    "broader": root_url + broader,
+                    "narrower": [] # to be filled later
+                }
+            else:
+                newtree['/' + hierarchie_url]["broader"] = root_url + broader
+                
+            if len(hierarchie_tab) > 1:
+                # populate narrower records of parent nodes
+                if newtree.has_key(broader):
+                    newtree[broader]["narrower"].append(root_url + '/' + hierarchie_url)
+                else:
+                    newtree[broader] = {
+                        "broader": "", # to be filled later
+                        "narrower": [root_url + '/' + hierarchie_url]
+                    }
+            
+    
+    return newtree
 
 #-------------------------------------------------------------------------------
 
@@ -322,12 +356,13 @@ def main():
     print ""
     print fichier_xml_org
 
+    tree = CreerStructHierarchie()
 
     # écriture du début du fichier RDF
     print u"Ecriture du début du fichier RDF"
     EcrireDebutFichierRDF()
 
-    EcrireMotsCles()
+    EcrireMotsCles(tree)
 
     EcrireHierarchie()
 
